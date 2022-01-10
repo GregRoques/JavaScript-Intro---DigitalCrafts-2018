@@ -1,0 +1,104 @@
+h1{
+    font-family: 'Mali', cursive;
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    text-shadow: 3px 3px 5px black
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+    
+    
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 16px;
+}
+
+video{
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+
+    
+html{
+    background-image: url("http://images2.fanpop.com/images/photos/5100000/Cats-wallpaper-cats-5194935-1280-1024.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #FF9500;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+ 
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: 'Mali', cursive;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    text-shadow: 3px 3px 5px black
+}
+
+/* Nacho's DJ Booth */
+
+.keys {
+    display: flex;
+    flex: 1;
+    min-height: 20vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.key {
+  border: .1rem solid black;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all 1s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 .5rem black;
+}
+
+.playing {
+    transform: scale(1.1);
+    background-image: url("/Users/gregroques/Desktop/nacheaux/images/catPaw.png");
+    background-position: center;
+    background-size: 35%;
+    background-repeat: no-repeat;
+    border-color: #ffc600;
+    box-shadow: 0 0 10px #ffc600;
+}
+
+.sound {
+    font-size: .75rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: white;
+}
+
+.kbd{
+    display: block;
+    font-size: 80px
+}
+
+

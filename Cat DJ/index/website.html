@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link href="../style/styles.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Mali|Open+Sans" rel="stylesheet">
+
+  <title>Nacheaux's Cat Corner</title>
+
+</head>
+
+<body>
+
+  <h1><strong>Nacheaux's <br>Cat Corner</strong></h1>
+
+
+  <img src="../images/nacheaux2.jpg" alt="My Selfie" title="I scratch records like I scratch furniture." height="300px"
+    width="400px" onclick="play()" ondblclick="pause()">
+
+  <p> <b>Want to help me DJ?</b></p>
+  <p> Click my picture and I'll drop a fun beat for you; double click to pawse. <br> You can help me add some samples by
+    pushing the keys below.</p>
+
+  <div class="keys">
+    <div data-key="65" class="key">
+      <kbd>A</kbd>
+      <span class="sound">meow</span>
+    </div>
+
+    <div data-key="83" class="key">
+      <kbd>S</kbd>
+      <span class="sound">purr</span>
+    </div>
+
+    <div data-key="90" class="key">
+      <kbd>Z</kbd>
+      <span class="sound">scream</span>
+    </div>
+
+    <div data-key="88" class="key">
+      <kbd>X</kbd>
+      <span class="sound">screech</span>
+    </div>
+
+  </div>
+
+  <p>Hi there! I am famed feline influencer and <a href="https://www.instagram.com/lil_nacheaux_nola/"
+      target="_blank">Instagram <i><b>purrsonality</b></i></a> Lil' Nacheaux. </p>
+  <p>Welcome to my website! Click below to watch me live my best life.</p>
+  <br>
+  <br>
+
+  <video width="400px" height="515px" controls>
+    <source src="../images/welcome-home.mp4" type="video/mp4" />
+    <track label="English" kind="subtitles" srclang="en" src="../subtitles/subtitles.vtt" default />
+  </video>
+
+
+  <audio data-key="65" src="../audio/meow.wav"></audio>
+  <audio data-key="83" src="../audio/purr.wav"></audio>
+  <audio data-key="90" src="../audio/scream.wav"></audio>
+  <audio data-key="88" src="../audio/screech.wav"></audio>
+  <audio id="bass" src="../audio/bass.wav"></audio>
+
+  <script src='../style/main.js'></script>
+</body>
+
+</html>
